@@ -26,7 +26,7 @@ Me trur desse 3 variantane dekkjer dei fleste behova som offentleg sektor har fo
 
 ## Brukargrensesnitt
 
-Per idag har utstedaren eit [ope web-grensesnitt](https://bevisporten.test.eidas2sandkasse.net/) der sluttbrukar kan få laga QR-koder som kan scannast for å initiere ein utstedelsesprosess.   For bevistypar som er basert på pre-authorization-code flyt, må du istaden bruke [den tekniske test-tenesta](https://demo-ui-utsteder.test.eidas2sandkasse.net/).
+Per idag har utstedaren eit [ope web-grensesnitt](https://bevisporten.test.eidas2sandkasse.net/) der sluttbrukar kan få laga QR-koder som kan scannast for å initiere ein utstedelsesprosess.   For bevistypar som er basert på pre-authorization-code flyt, må du istaden bruke [den tekniske test-tenesta](https://bevisgenerator.test.eidas2sandkasse.net/).
 
 Utstedaren vil på sikt tilby eit web-grensesnitt der sluttbrukar kan logge inn og få utstedt bevis til seg sjølv.
 
@@ -64,4 +64,5 @@ Kjeldekode for utstedaren finn du på [sandkassen sitt Github-område](https://g
 - *eudiw-issuer-server*: backend som er hovudmotoren i utstedaren
 - *eudiw-auth-server* Ein Oauth2 autorisasjonsserver spesialtdesigna for utstedaren
 - *eudiw-issuer-ui*: brukargrensesnitt for innbyggar
+
 
